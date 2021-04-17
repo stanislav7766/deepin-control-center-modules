@@ -1,0 +1,19 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Deepin Control Center Modules",
+  "description": "Bluetooth, Accounts, Power, Sound etc",
+  "developer_name": "Stanislav Tikhonov",
+  "icon": "images/settings-logo.svg",
+  "options": {
+    "query_debounce": 0.05
+  },
+  "preferences": [
+    {
+      "id": "control-modules",
+      "type": "keyword",
+      "name": "Deepin Control Center Modules",
+      "description": "Bluetooth, Accounts, Power, Sound etc",
+      "default_value": "mod"
+    }
+  ]
+}

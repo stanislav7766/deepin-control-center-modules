@@ -1,0 +1,120 @@
+{
+  "bluetooth": {
+    "name": "Bluetooth",
+    "aliases": ["bluetooth"],
+    "description": "Bluetooth settings",
+    "icon": "images/bluetooth.svg",
+    "command": "dbus-send --print-reply --dest=com.deepin.dde.ControlCenter /com/deepin/dde/ControlCenter com.deepin.dde.ControlCenter.ShowModule string:bluetooth"
+  },
+  "accounts": {
+    "name": "Accounts",
+    "description": "Accounts settings",
+    "icon": "images/accounts.svg",
+    "aliases": ["accounts"],
+    "command": "dbus-send --print-reply --dest=com.deepin.dde.ControlCenter /com/deepin/dde/ControlCenter com.deepin.dde.ControlCenter.ShowModule string:accounts"
+  },
+  "deepin-id": {
+    "name": "Deepin ID",
+    "description": "Deepin ID settings",
+    "icon": "images/cloudsync.svg",
+    "aliases": ["deepin id", "deepinid", "deepin", "deepin-id"],
+    "command": "dbus-send --print-reply --dest=com.deepin.dde.ControlCenter /com/deepin/dde/ControlCenter com.deepin.dde.ControlCenter.ShowModule string:cloudsync"
+  },
+  "display": {
+    "name": "Display",
+    "description": "Display settings",
+    "icon": "images/display.svg",
+    "aliases": ["display"],
+    "command": "dbus-send --print-reply --dest=com.deepin.dde.ControlCenter /com/deepin/dde/ControlCenter com.deepin.dde.ControlCenter.ShowModule string:display"
+  },
+  "default-applications": {
+    "name": "Default Applications",
+    "description": "Default Apps settings",
+    "icon": "images/defapp.svg",
+    "aliases": [
+      "default applications",
+      "defaultapplications",
+      "default",
+      "applications",
+      "default-applications"
+    ],
+    "command": "dbus-send --print-reply --dest=com.deepin.dde.ControlCenter /com/deepin/dde/ControlCenter com.deepin.dde.ControlCenter.ShowModule string:defapp"
+  },
+  "keyboard": {
+    "name": "Keyboard",
+    "description": "Keyboard settings",
+    "icon": "images/keyboard.svg",
+    "aliases": ["keyboard"],
+    "command": "dbus-send --print-reply --dest=com.deepin.dde.ControlCenter /com/deepin/dde/ControlCenter com.deepin.dde.ControlCenter.ShowModule string:keyboard"
+  },
+  "mouse": {
+    "name": "Mouse",
+    "description": "Mouse settings",
+    "icon": "images/mouse.svg",
+    "aliases": ["mouse"],
+    "command": "dbus-send --print-reply --dest=com.deepin.dde.ControlCenter /com/deepin/dde/ControlCenter com.deepin.dde.ControlCenter.ShowModule string:mouse"
+  },
+  "network": {
+    "name": "Network",
+    "description": "Network settings",
+    "icon": "images/network.svg",
+    "aliases": ["network"],
+    "command": "dbus-send --print-reply --dest=com.deepin.dde.ControlCenter /com/deepin/dde/ControlCenter com.deepin.dde.ControlCenter.ShowModule string:network"
+  },
+  "notification": {
+    "name": "Notification",
+    "description": "Notification settings",
+    "icon": "images/notification.svg",
+    "aliases": ["notification"],
+    "command": "dbus-send --print-reply --dest=com.deepin.dde.ControlCenter /com/deepin/dde/ControlCenter com.deepin.dde.ControlCenter.ShowModule string:notification"
+  },
+  "personalization": {
+    "name": "Personalization",
+    "description": "Personalization settings",
+    "icon": "images/personalization.svg",
+    "aliases": ["personalization"],
+    "command": "dbus-send --print-reply --dest=com.deepin.dde.ControlCenter /com/deepin/dde/ControlCenter com.deepin.dde.ControlCenter.ShowModule string:personalization"
+  },
+  "power": {
+    "name": "Power",
+    "description": "Power settings",
+    "icon": "images/power.svg",
+    "aliases": ["power"],
+    "command": "dbus-send --print-reply --dest=com.deepin.dde.ControlCenter /com/deepin/dde/ControlCenter com.deepin.dde.ControlCenter.ShowModule string:power"
+  },
+  "sound": {
+    "name": "Sound",
+    "description": "Sound settings",
+    "icon": "images/sound.svg",
+    "aliases": ["sound"],
+    "command": "dbus-send --print-reply --dest=com.deepin.dde.ControlCenter /com/deepin/dde/ControlCenter com.deepin.dde.ControlCenter.ShowModule string:sound"
+  },
+  "date-time": {
+    "name": "Date & Time",
+    "description": "Date & Time settings",
+    "icon": "images/datetime.svg",
+    "aliases": ["date", "time", "date time", "datetime", "date-time"],
+    "command": "dbus-send --print-reply --dest=com.deepin.dde.ControlCenter /com/deepin/dde/ControlCenter com.deepin.dde.ControlCenter.ShowModule string:datetime"
+  },
+  "updates": {
+    "name": "Updates",
+    "description": "Updates settings",
+    "icon": "images/update.svg",
+    "aliases": ["updates"],
+    "command": "dbus-send --print-reply --dest=com.deepin.dde.ControlCenter /com/deepin/dde/ControlCenter com.deepin.dde.ControlCenter.ShowModule string:update"
+  },
+  "system-info": {
+    "name": "System Info",
+    "description": "System Info settings",
+    "icon": "images/systeminfo.svg",
+    "aliases": ["system info", "system", "info", "systeminfo", "system-info"],
+    "command": "dbus-send --print-reply --dest=com.deepin.dde.ControlCenter /com/deepin/dde/ControlCenter com.deepin.dde.ControlCenter.ShowModule string:systeminfo"
+  },
+  "general": {
+    "name": "General",
+    "description": "General settings",
+    "icon": "images/general.svg",
+    "aliases": ["general"],
+    "command": "dbus-send --print-reply --dest=com.deepin.dde.ControlCenter /com/deepin/dde/ControlCenter com.deepin.dde.ControlCenter.ShowModule string:commoninfo"
+  }
+}
